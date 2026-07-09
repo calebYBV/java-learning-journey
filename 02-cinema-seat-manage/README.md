@@ -89,6 +89,6 @@ Example:
 
 ## Project Status
 
-Completed.
+**Completed**
 
 The project is currently being developed as part of my Java learning journey.
