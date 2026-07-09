@@ -10,8 +10,8 @@ source code, objectives, and the concepts practiced.
 
 | No. | Project | Main topic |
 |-----|---------|------------|
-|  01 | [Reverse Diagonal Matrix](./01-reverse-diagonal-matrix) |  arrays |
-|  02 |                                                         |         |
+|  01 | [Reverse Diagonal Matrix](./01-reverse-diagonal-matrix)|Two-Dimensional Arrays: Concepts, Declaration, Initialization.|
+|  02 | [Cinema Seat Manage](./02-cinema-seat-manage)|Two-Dimensional Arrays: Concepts, Declaration, Initialization, Access, Iteration, and Manipulation|
 
 ## Topics
 
