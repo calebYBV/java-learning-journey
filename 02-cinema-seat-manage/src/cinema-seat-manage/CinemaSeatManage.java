@@ -109,7 +109,7 @@ public class Cinemaseatmanage {
     }
 
     static void seat_reservation(int seats[][], int row_validation, int column_validation) {
-        if ((row_validation < 0) || (row_validation >= seats.length) && (column_validation < 0) || (column_validation >= seats[row_validation].length)) {
+        if ((row_validation < 0) || (row_validation >= seats.length) && (column_validation < 0) || (column_validation >= seats[row_validation].length)||(seats[row_validation][column_validation]==1)) {
             System.out.println("Invalid seat");
         } else {
             System.out.println("Valid seat");
