@@ -4,13 +4,13 @@ A simple Java console game created to practice two-dimensional arrays, loops, me
 
 ## Project Description
 
-This program implements a simplified version of the Snake game using a 9 × 9 matrix displayed in the console.
+This program implements a simplified version of the Snake game using a **15 × 20 matrix** displayed in the console.
 
 The matrix represents:
 
 * `#` as a wall.
 * `+` as an empty space.
-* `@` as food.
+* `$` as food.
 * Numbers as the different parts of the snake.
 
 The player controls the snake using the keyboard:
@@ -27,15 +27,21 @@ The game ends when the snake collides with a wall or with its own body. The play
 ## Expected Output
 
 ```text
-# # # # # # # # #
-# + + + + + + + #
-# + + + @ + + + #
-# + + + + + + + #
-# + + 2 1 0 + + #
-# + + + + + + + #
-# + + + + + + + #
-# + + + + + + + #
-# # # # # # # # #
+# # # # # # # # # # # # # # # # # # # #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + $ + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + 2 1 0 + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# + + + + + + + + + + + + + + + + + + #
+# # # # # # # # # # # # # # # # # # # #
 
 Enter movement: W
 ```
@@ -44,7 +50,7 @@ The exact position of the snake and food can change during the game.
 
 ## How It Works
 
-The program creates a two-dimensional character array with 9 rows and 9 columns.
+The program creates a two-dimensional character array with **15 rows and 20 columns**.
 
 Two nested loops traverse every position in the matrix:
 
