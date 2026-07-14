@@ -16,6 +16,8 @@ source code, objectives, and the concepts practiced.
 |  04 | [Character Battle Simulator](./04-character-battle-simulator/)|Object-Oriented Programming: Classes, Objects, Attributes, Constructors, Methods, Parameters, and Object Interaction.|
 |  05 | [Digital Wallet](./05-digital-wallet/)|Object-Oriented Programming: Encapsulation, Static Members, Method Overloading, Validation, and Object Interaction.|
 |  06 | [Grade Calculator](./06-grade-calculator/)|Java Swing: GUI Components, Layout Managers, Events, Input Validation, and Interface–Logic Separation.|
+|  07 | [Multilingual Study Planner](./07-multilingual-study-planner/)|Java Swing: Selection Components, Event Handling, Validation, Internationalization, Accessibility, and Usability.|
+|  08 | 
 ## Topics
 
 - Variables and data types
