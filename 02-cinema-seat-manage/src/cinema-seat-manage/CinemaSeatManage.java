@@ -109,14 +109,20 @@ public class Cinemaseatmanage {
     }
 
     static void seat_reservation(int seats[][], int row_validation, int column_validation) {
-        if ((row_validation < 0) || (row_validation >= seats.length) && (column_validation < 0) || (column_validation >= seats[row_validation].length)||(seats[row_validation][column_validation]==1)) {
-            System.out.println("Invalid seat");
+        if (seats[row_validation][column_validation] == 1) {
+            System.out.println("Seat is currently occupied");
         } else {
-            System.out.println("Valid seat");
-            System.out.println("reserved seat in: \n"
-                    + "Row: " + row_validation + "\n"
-                    + "Column: " + column_validation);
-            seats[row_validation][column_validation] = 1;
+            if ((row_validation < 0) || (row_validation >= seats.length) && (column_validation < 0) || (column_validation >= seats[row_validation].length)) {
+                System.out.println("Seat is currently occupied");
+            } else {
+                seats[row_validation][column_validation] = 1;
+                row_validation = row_validation + 1;
+                column_validation = column_validation + 1;
+                System.out.println("Valid seat");
+                System.out.println("reserved seat in: \n"
+                        + "Row: " + row_validation + "\n"
+                        + "Column: " + column_validation);
+            }
         }
     }
 
