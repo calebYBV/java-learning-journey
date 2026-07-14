@@ -24,7 +24,7 @@ The interface includes a menu bar, a toolbar, labels, text fields, selection com
 ┌────────────────────────────────────────────────────────┐
 │ File   Language   Help                                 │
 ├────────────────────────────────────────────────────────┤
-│ [ New Plan ] [ Clear ] [ ES / EN ]                    │
+│ [ New Plan ] [ Clear ] [ ES / EN ]                     │
 ├────────────────────────────────────────────────────────┤
 │             Multilingual Study Planner                 │
 │                                                        │
