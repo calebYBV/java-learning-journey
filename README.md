@@ -11,8 +11,8 @@ source code, objectives, and the concepts practiced.
 | No. | Project | Main topic |
 |-----|---------|------------|
 |  01 | [Reverse Diagonal Matrix](./01-reverse-diagonal-matrix)|Two-Dimensional Arrays: Concepts, Declaration, Initialization.|
-|  02 | [Cinema Seat Manage](./02-cinema-seat-manage)|Two-Dimensional Arrays: Concepts, Declaration, Initialization, Access, Iteration, and Manipulation|
-|  03 |        |
+|  02 | [Cinema Seat Manage](./02-cinema-seat-manage)|Two-Dimensional Arrays: Concepts, Declaration, Initialization, Access, Iteration, and Manipulation.|
+|  03 | [Console Snake Matrix](./03-console-snake-matrix/)|Two-Dimensional Arrays: Traversal, Manipulation, Movement, Input Validation, Boundary Checking, and Collision Detection.|
 ## Topics
 
 - Variables and data types
