@@ -12,7 +12,7 @@ source code, objectives, and the concepts practiced.
 |-----|---------|------------|
 |  01 | [Reverse Diagonal Matrix](./01-reverse-diagonal-matrix)|Two-Dimensional Arrays: Concepts, Declaration, Initialization.|
 |  02 | [Cinema Seat Manage](./02-cinema-seat-manage)|Two-Dimensional Arrays: Concepts, Declaration, Initialization, Access, Iteration, and Manipulation|
-
+|  03 |        |
 ## Topics
 
 - Variables and data types
